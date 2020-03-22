@@ -1,0 +1,149 @@
+{
+  "sources": [
+    {
+      "owner_screen_name": "Steven__Martin",
+      "slug": "angular-news",
+      "rules": {
+        "default": "include all",
+        "custom": [
+        ]
+      }
+    },
+    {
+      "owner_screen_name": "Steven__Martin",
+      "slug": "angular-news-support",
+      "rules": {
+        "default": "exclude all",
+        "custom": [
+          {
+            "action": "force include",
+            "where": "article",
+            "contains": "angular"
+          },
+          {
+            "action": "force exclude",
+            "where": "article",
+            "contains": "@angularjobs"
+          },
+          {
+            "action": "force exclude",
+            "where": "article",
+            "contains": "Angular Jobs"
+          }
+        ]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "category": "Universal",
+      "search_pattern": "universal",
+      "badge": "universal_badge"
+    },
+    {
+      "category": "Animations",
+      "search_pattern": "animations",
+      "badge": "animations_badge"
+    },
+    {
+      "category": "Augury",
+      "search_pattern": "augury",
+      "badge": "augury_badge"
+    },
+    {
+      "category": "CDK",
+      "search_pattern": "cdk",
+      "badge": "cdk_badge"
+    },
+    {
+      "category": "CLI",
+      "search_pattern": "CLI",
+      "badge": "cli_badge"
+    },
+    {
+      "category": "Compiler",
+      "search_pattern": "compiler",
+      "badge": "compiler_badge"
+    },
+    {
+      "category": "Components",
+      "search_pattern": "components",
+      "badge": "components_badge"
+    },
+    {
+      "category": "Dependency Injection",
+      "search_pattern": "Dependency injection",
+      "badge": "dependency-injection_badge"
+    },
+    {
+      "category": "Forms",
+      "search_pattern": "forms",
+      "badge": "forms_badge"
+    },
+    {
+      "category": "HTTP",
+      "search_pattern": "http",
+      "badge": "http_badge"
+    },
+    {
+      "category": "i18n",
+      "search_pattern": "i18n",
+      "badge": "i18n_badge"
+    },
+    {
+      "category": "Karma",
+      "search_pattern": "karma",
+      "badge": "karma_badge"
+    },
+    {
+      "category": "Labs",
+      "search_pattern": "labs",
+      "badge": "labs_badge"
+    },
+    {
+      "category": "Language Services",
+      "search_pattern": "language services",
+      "badge": "language-services_badge"
+    },    {
+      "category": "Lazy Loading",
+      "search_pattern": "lazy loading",
+      "badge": "lazy-loading_badge"
+    },
+    {
+      "category": "Libraries",
+      "search_pattern": "libraries",
+      "badge": "libraries_badge"
+    },
+    {
+      "category": "Material",
+      "search_pattern": "material",
+      "badge": "material_badge"
+    },
+    {
+      "category": "Performance",
+      "search_pattern": "performance",
+      "badge": "performance_badge"
+    },
+    {
+      "category": "Protractor",
+      "search_pattern": "protractor",
+      "badge": "protractor_badge"
+    },
+    {
+      "category": "PWA",
+      "search_pattern": "pwa",
+      "badge": "pwa_badge"
+    },
+    {
+      "category": "Router",
+      "search_pattern": "router",
+      "badge": "router_badge"
+    },
+    {
+      "category": "Templates",
+      "search_pattern": "templates",
+      "badge": "templates_badge"
+    }
+  ],
+  "sort": "top20"
+}

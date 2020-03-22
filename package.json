@@ -1,0 +1,33 @@
+{
+  "name": "angular-news-api",
+  "version": "1.0.0",
+  "description": "API for the Angular News site",
+  "author": "Steve Martin <steven_martin@me.com>",
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "news",
+    "angular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steven-martin/angular-news-api"
+  },
+  "scripts": {
+    "deploy": "./eb/prod.deploy.sh",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "start": "node api.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "node-cron": "^1.2.1",
+    "twitter-headlines": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "main": "api.js"
+}
