@@ -21,9 +21,44 @@
             "contains": "angular"
           },
           {
+            "action": "force include",
+            "where": "source",
+            "contains": "@JavaScript_Dev_"
+          },
+          {
+            "action": "force include",
+            "where": "source",
+            "contains": "@javascript_next"
+          },
+          {
+            "action": "force include",
+            "where": "source",
+            "contains": "@javascriptX"
+          },
+          {
             "action": "force exclude",
             "where": "article",
             "contains": "@angularjobs"
+          },
+          {
+            "action": "force exclude",
+            "where": "article",
+            "contains": "vue"
+          },
+          {
+            "action": "force exclude",
+            "where": "article",
+            "contains": "vue.js"
+          },
+          {
+            "action": "force exclude",
+            "where": "article",
+            "contains": "vuex"
+          },
+          {
+            "action": "force exclude",
+            "where": "article",
+            "contains": "react"
           },
           {
             "action": "force exclude",
