@@ -1,5 +1,5 @@
 
-require('dotenv').load();
+require('dotenv').config();
 const cron = require('node-cron');
 const express = require('express');
 const TwitterHeadlines = require('twitter-headlines');
